@@ -1,0 +1,26 @@
+name: OpenAI API repository for Kiota index
+description: This is a fork of the openai/openai-openapi repository so this it can be indexed in Kiota search
+tags:
+    - application programming interface
+    - API
+    - Kiota
+    - OpenApi
+    - OpenAI
+created: '2023-01-20'
+specificationVersion: '0.15'
+apis:
+    - 
+        name: OpenAI
+        description: APIs for sampling from and fine-tuning language models
+        baseURL: 'https://api.openai.com/v1'
+        properties:
+            - 
+                type: X-openapi
+                url: 'https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml'
+
+maintainers:
+    - 
+        FN: Darrel
+        X-mastodon: "@darrel_miller@mastodon.social"
+        email: darrel@tavis.ca
+
